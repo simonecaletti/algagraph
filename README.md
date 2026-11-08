@@ -17,7 +17,10 @@ ALGAgraph was written in 2015 as the final project of the *Laboratorio di
 Calcolo* course (a.a. 2014/2015), on top of CERN ROOT 5. Version 2.0 is a
 rewrite in plain C++17. It does the same things, has no ROOT dependency and
 fixes the bugs of the original (see [What changed](#what-changed-in-version-20)).
-The original source is kept in [`legacy/ALGAgraph.cpp`](legacy/ALGAgraph.cpp).
+The original source is kept in [`legacy/ALGAgraph.cpp`](legacy/ALGAgraph.cpp),
+and the original manual (in Italian, written for version 1.0) is in
+[`docs/ALGAgraph_manual.pdf`](docs/ALGAgraph_manual.pdf). The commands and the
+worked example in the manual still apply to version 2.0.
 
 ## Building
 
@@ -147,6 +150,7 @@ src/plot.*       marching squares and gnuplot output
 src/main.cpp     interactive command loop
 tests/           unit tests (run with ctest)
 legacy/          the original 2015 ROOT-based source
+docs/            the original 2015 manual (PDF, Italian)
 ```
 
 ## License
